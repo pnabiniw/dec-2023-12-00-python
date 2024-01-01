@@ -24,4 +24,4 @@ Git Commands
 6. git remote -v
     => lists all the remote repos links
 
-6. git push -u origin main
+7. git push -u origin main
