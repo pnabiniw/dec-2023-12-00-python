@@ -1,6 +1,10 @@
 1. Git is a version control system
 
 
+Git config setup commands
+1. git config --global user.name "<username>"
+2. git config --global user.email "<email>"
+
 Git Commands
 1. git init
     => Initializes a repository (repo)
@@ -11,3 +15,13 @@ Git Commands
 3. git commit -m "<commit_message>"
     => commits the tracked files
 
+4. git branch
+    => it lists all the branches and highlights the current branch
+
+5. git remote add origin <ssh-link>
+    => Connects the local repo with the remote repo
+
+6. git remote -v
+    => lists all the remote repos links
+
+6. git push -u origin main
