@@ -1,0 +1,9 @@
+1. Git is a version control system
+
+
+Git Commands
+1. git init
+    => Initializes a repository (repo)
+
+2. git add .
+    => tracks all the untracked files in a repo
