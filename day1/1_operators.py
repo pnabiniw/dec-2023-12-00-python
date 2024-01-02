@@ -1,4 +1,7 @@
 """
+Start date: 31 december 2023
+
+
 Operators are the special symbols in a programming language to perform different operations.
 Like in any other language, python also has a set of operators. They are:
 

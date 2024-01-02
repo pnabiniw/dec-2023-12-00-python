@@ -25,3 +25,7 @@ Git Commands
     => lists all the remote repos links
 
 7. git push -u origin main
+
+8. git clone <ssh-link>
+
+9. git pull origin main
