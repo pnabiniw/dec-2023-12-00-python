@@ -93,4 +93,3 @@ class E(D):
 
 # MRO (Method Resolution Order) => It sets the priority of the inherited attributes
 print(E.mro())
-
