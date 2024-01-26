@@ -11,13 +11,17 @@ def main():
         print("Thank you. See you again !")
 
     if choice == "c":
-        create_student()
+        cont = create_student()
+        main() if cont else exit_message()
     elif choice == "r":
-        read_student()
+        cont = read_student()
+        main() if cont else exit_message()
     elif choice == "u":
-        update_student()
+        cont = update_student()
+        main() if cont else exit_message()
     elif choice == "d":
-        delete_student()
+        cont = delete_student()
+        main() if cont else exit_message()
     else:
         exit_message()
 

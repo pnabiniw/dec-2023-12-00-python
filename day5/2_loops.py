@@ -42,3 +42,13 @@ for index, value in enumerate(vowels):
     print(index)  # 0, 1, 2, 3, 4
     print(value)  # a, e, i, o, u
 
+
+
+data = ["a", "e", "i", "o", "u"]
+for i in data:
+    print(i)
+    if i == "o":
+        break
+else:
+    print("The loop has been completely run")
+

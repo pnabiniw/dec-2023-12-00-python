@@ -9,6 +9,7 @@ while num != 0:
     num -= 1
 
 
+
 # Sometimes we may require infinite loop. It can be created as:
 #
 # while True:

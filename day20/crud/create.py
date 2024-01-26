@@ -4,6 +4,7 @@ filename = "students.json"
 
 
 def create_student():
+    id = input("Enter the id ")
     name = input("Enter the name ")
     age = input("Enter the age ")
     address = input("Enter the address ")
@@ -19,3 +20,5 @@ def create_student():
             data.append(student)
             fp.seek(0)
             fp.write(json.dumps(data, indent=2))
+    choice = input("Do you want to continue? (y/n) ")
+    return True if choice.lower() == "y" else False
