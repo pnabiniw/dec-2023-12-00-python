@@ -9,3 +9,6 @@
 3. git checkout <branch_name>
 
 4. git checkout -b <new_branch_name>
+
+5. git merge <branch_name>
+    => Merges the code from the branch name provided to the current branch
